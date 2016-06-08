@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author       = "An author is you."
   s.platform     = :ios, "9.0"
-  s.source       = { :git => "http://EXAMPLE/ThreeRingControl.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/radhakrishnapai/ThreeRingControl.git", :tag => "1.0.0" }
   s.source_files = "ThreeRingControl", "ThreeRingControl/**/*.{h,m,swift}"
   s.resources    = "ThreeRingControl/*.mp3"
 end
