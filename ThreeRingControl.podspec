@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
-  s.name         = "ThreeRingControl"
-  s.version      = "1.0.0"
-  s.summary      = "A three-ring control like the Activity status bars"
+  s.name         = 'ThreeRingControl'
+  s.version      = '1.0.0'
+  s.summary      = 'A three-ring control like the Activity status bars'
   s.description  = "The three-ring is a completely customizable widget that can be used in any iOS app. It also plays a little victory fanfare."
-  s.homepage     = "http://raywenderlich.com"
-  s.license      = "MIT"
-  s.author       = "An author is you."
-  s.platform     = :ios, "9.0"
-  s.source       = { :git => "https://github.com/radhakrishnapai/ThreeRingControl.git", :tag => "1.0.0" }
-  s.source_files = "ThreeRingControl", "ThreeRingControl/**/*.{h,m,swift}"
-  s.resources    = "ThreeRingControl/*.mp3"
+  s.homepage     = 'https://github.com/radhakrishnapai/ThreeRingControl'
+  s.license      = 'MIT'
+  s.author       = 'Radhakrishna Pai'
+  s.platform     = :ios, '9.0'
+  s.source       = { :git => 'https://github.com/radhakrishnapai/ThreeRingControl.git', :tag => s.version }
+  s.source_files = 'ThreeRingControl', 'ThreeRingControl/**/*.{h,m,swift}'
+  s.resources    = 'ThreeRingControl/*.mp3'
 end
